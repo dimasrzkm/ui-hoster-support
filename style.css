@@ -43,8 +43,10 @@ img {
 /* End CSS Reset */
 /* Header Section */
 .header {
+  position: relative;
+  overflow: hidden;
   padding-top: 58px;
-  height: 500px;
+  height: 577px;
   background: linear-gradient(rgba(15, 15, 51, 1), rgba(5, 5, 23, 1));
 }
 .navbar {
@@ -98,6 +100,74 @@ img {
   font-size: 0.9rem;
 }
 /* End Header Section */
+/* Hero Section */
+.hero {
+  height: 100%;
+  color: rgba(255, 255, 255, 1);
+}
+.hero-information {
+  max-width: 653px;
+  margin-top: 75px;
+}
+.information-title {
+  font-weight: 400;
+  max-width: 70ch;
+  line-height: 28px;
+}
+.information-search {
+  margin-top: 30px;
+}
+.form-group {
+  position: relative;
+  display: flex;
+}
+.search-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 13px;
+  left: 16px;
+}
+.form-search {
+  border: none;
+  outline: none;
+  padding: 18px 24px 18px 56px;
+  flex: 80%;
+  font-family: inherit;
+}
+.form-search::placeholder {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.btn-search-submit {
+  flex: 20%;
+  background-color: rgba(58, 58, 244, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.information-popular {
+  margin-top: 20px;
+  display: flex;
+  gap: 14px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.information-recently {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+/* End Hero Section */
+.wave {
+  position: absolute;
+  top: 132px;
+  right: -2px;
+  width: 42%;
+  object-fit: contain;
+}
 .btn {
   border: none;
   outline: none;
