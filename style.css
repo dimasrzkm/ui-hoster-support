@@ -24,6 +24,7 @@ ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 ol,
@@ -35,4 +36,69 @@ img {
   max-width: 100%;
   height: auto;
 }
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
 /* End CSS Reset */
+/* Header Section */
+.header {
+  padding-top: 58px;
+  height: 500px;
+  background: linear-gradient(rgba(15, 15, 51, 1), rgba(5, 5, 23, 1));
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.logo-wrapper {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(58, 58, 244, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.navbar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.navbar-header a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+.navbar-header > .active-link {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+}
+.btn-my-account {
+  padding: 15px 30px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 100px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: 0.3px;
+  font-size: 0.9rem;
+}
+/* End Header Section */
+.btn {
+  border: none;
+  outline: none;
+}
