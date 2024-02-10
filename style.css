@@ -40,6 +40,9 @@ img {
   margin-left: 150px;
   margin-right: 150px;
 }
+body { 
+  background-color: rgba(238, 238, 255, 1);
+}
 /* End CSS Reset */
 /* Header Section */
 .header {
@@ -231,6 +234,107 @@ img {
   height: 20px;
 }
 /* End Main Section */
+/* Footer Section */
+.footer {
+  padding-left: 130px;
+  padding-right: 130px;
+  background-color: rgba(6, 6, 26, 1);
+  border-top-right-radius: 108px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-chat-support {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chat-description > h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.chat-description > p {
+  width: 60ch;
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 10px;
+  line-height: 32px;
+}
+.footer-intouch-support {
+  position: relative;
+}
+.chat {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.btn-chat {
+  background-color: rgba(58, 58, 244, 1);
+  color: inherit;
+  font-family: inherit;
+  padding: 25px 45px 25px 60px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.footer-contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 31px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact > h4 {
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-item > p {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  line-height: 28px;
+}
+.contact-item:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.contact > h4 {
+  margin-bottom: 20px;
+}
+.contact-lists > li {
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+.footer-logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.footer-logo > p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.95px;
+}
+.footer-description-wrapper {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(58, 58, 244, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer-copyright {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+}
+/* End Footer Section */
 .wave {
   position: absolute;
   top: 132px;
