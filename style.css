@@ -40,7 +40,7 @@ img {
   margin-left: 150px;
   margin-right: 150px;
 }
-body { 
+body {
   background-color: rgba(238, 238, 255, 1);
 }
 /* End CSS Reset */
@@ -335,6 +335,51 @@ body {
   font-size: 0.85rem;
 }
 /* End Footer Section */
+/* Article Section */
+.article {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  padding: 60px 60px 10px;
+}
+.article-body,
+.article-footer {
+  color: rgba(6, 6, 25, 0.6);
+}
+.article-header {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.article-body {
+  padding-bottom: 10px;
+}
+.article-body > p {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.article-footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.article-footer-reaction {
+  padding-top: 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.article-footer > h5 {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.thumb {
+  width: 20px;
+}
+.thumb:last-child {
+  rotate: 180deg;
+}
+/* End Article Section */
 .wave {
   position: absolute;
   top: 132px;
